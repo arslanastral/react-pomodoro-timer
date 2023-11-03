@@ -40,35 +40,35 @@ const ControlPanel = () => {
 
   const startTimerSound = new Howl({
     src: [
-      "https://arslanastral.github.io/freeCodeCamp-Projects/03_Front-End-Development-Libraries/05_25%2B5-Clock/src/sounds/play.mp3",
+      "https://arslanastral.github.io/react-pomodoro-timer/src/sounds/play.mp3",
     ],
     volume: 0.5,
   });
 
   const stopTimerSound = new Howl({
     src: [
-      "https://arslanastral.github.io/freeCodeCamp-Projects/03_Front-End-Development-Libraries/05_25%2B5-Clock/src/sounds/stop.mp3",
+      "https://arslanastral.github.io/react-pomodoro-timer/src/sounds/stop.mp3",
     ],
     volume: 0.5,
   });
 
   const resetTimerSound = new Howl({
     src: [
-      "https://arslanastral.github.io/freeCodeCamp-Projects/03_Front-End-Development-Libraries/05_25%2B5-Clock/src/sounds/reset.mp3",
+      "https://arslanastral.github.io/react-pomodoro-timer/src/sounds/reset.mp3",
     ],
     volume: 0.5,
   });
 
   const breakStartedSound = new Howl({
     src: [
-      "https://arslanastral.github.io/freeCodeCamp-Projects/03_Front-End-Development-Libraries/05_25%2B5-Clock/src/sounds/breakstarted.mp3",
+      "https://arslanastral.github.io/react-pomodoro-timer/src/sounds/breakstarted.mp3",
     ],
     volume: 0.5,
   });
 
   const breakFinishedSound = new Howl({
     src: [
-      "https://arslanastral.github.io/freeCodeCamp-Projects/03_Front-End-Development-Libraries/05_25%2B5-Clock/src/sounds/breakfinished.mp3",
+      "https://arslanastral.github.io/react-pomodoro-timer/src/sounds/breakfinished.mp3",
     ],
     volume: 0.5,
   });
